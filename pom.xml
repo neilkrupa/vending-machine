@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>oracle.vending.machine</groupId>
+  <artifactId>vending-machine-parent</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  
+  <properties>
+     <maven.compiler.source>1.8</maven.compiler.source>
+     <maven.compiler.target>1.8</maven.compiler.target>
+     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <modules>
+	<module>vendm-change-api</module>
+  	<module>vendm-change-impl</module>
+	<module>vendm-cli-api</module>
+  	<module>vendm-cli-impl</module>
+  	<module>vendm-core-api</module>
+  	<module>vendm-core-impl</module>
+  	<module>vendm-inventory-api</module>
+  	<module>vendm-inventory-impl</module>
+  </modules>
+  
+</project>
